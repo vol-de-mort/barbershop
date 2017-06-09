@@ -1,3 +1,7 @@
+body {
+	background: url(../img/bg.jpg) top center no-repeat #000;
+}
+
 .container {
 	width: 940px;
 	margin: 0 auto;
@@ -11,4 +15,92 @@
 
 .header {
 	background: #000;
+}
+
+.header-menu {
+	width: 640px;
+	float: left;
+	outline: 1px solid #cc0000;
+
+}
+
+.user-block {
+	width: 160px;
+	float: right;
+	outline: 1px solid #00cc00;
+}
+
+.promo-logo {
+	/*text-align: center;*/
+	width: 368px;
+	margin: 0 auto;
+	margin-top: 55px;
+	margin-bottom: 30px;
+}
+
+.promo-item {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.promo-item:last-child {
+	margin-right: 0;
+}
+
+.promo {
+	margin-bottom: 75px;
+}
+
+.index-content {
+	background: #fff;
+	margin-bottom: 35px;
+	padding: 55px 80px;
+}
+
+.index-content:last-child {
+	margin-bottom: 65px;
+}
+
+.index-block-left {
+	float: left;
+}
+
+.index-news {
+	width: 310px;
+}
+
+.index-block-right {
+	float: right;
+	width: 300px;
+}
+
+.index-contacts {
+	width: 330px;
+}
+
+.footer {
+	color: #fff;
+}
+
+.foot-contacts {
+	width: 320px;
+	float: left;
+	margin-right: 80px;
+}
+
+.foot-social {
+	width: 140px;
+	float: left;
+}
+
+.foot-social ul li {
+	float: left;
+}
+
+.foot-dev {
+	width: 140px;
+	float: right;
 }
