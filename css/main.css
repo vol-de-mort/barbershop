@@ -1,0 +1,14 @@
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.header {
+	background: #000;
+}
